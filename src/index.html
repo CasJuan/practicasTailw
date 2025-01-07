@@ -6,7 +6,7 @@
     <title>Tailwind</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-blue-400">
+<body class="p-4">
     <!-- <h2 class="bg-lime-600 text-azul-oscuro">Tailwind</h2>
     <h2 class="bg-lime-700">en</h2>
     <h2 class="bg-lime-800">CodingTube</h2> -->
@@ -21,7 +21,7 @@
         </div>
      -->
 
-        <form action="" class="bg-white w-80 mx-auto my-8 rounded-lg p-6">
+        <!-- <form action="" class="bg-white w-80 mx-auto my-8 rounded-lg p-6">
 
             <input  class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md disabled:bg-red-200" placeholder=" Nombre " type="text" disabled>
             
@@ -32,11 +32,35 @@
             
             <input  class="bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-blue-400" value=" Ingresar" type="submit">
 
+        </form> -->
 
 
+        <button class="bg-orange-600 w-32 p-3 rounded-md after:content-[' ']  after:absolute after:left-32 after:border-8 after:border-transparent after:border-l-orange-600 after:top-4">Haz clic aqui</button>
 
-        </form>
+        <input type="text" placeholder="Nombre" class="border ml-2 px-2 placeholder:text-orange-600 placeholder:italic">
 
+        <br>
+        <br>
 
+        <input type="file" class="file:bg-violet-100 file:border-0 file:rounded-lg file:text-violet-700  file:px-3 hover:file:bg-violet-300">
+
+        
+        <br>
+        <br>
+
+        <ul class="list-disc ml-6 marker:text-red-500 marker:font-bold">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <br>
+        <br>
+
+        <p class="selection:bg-green-200  selection:text-green-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet deserunt deleniti alias sit repellat maxime mollitia dolores fuga omnis ut repudiandae temporibus, animi necessitatibus labore itaque fugit distinctio blanditiis?</p>
+
+        <br>
+
+        <p class="first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold  first-letter:mr-3 first-letter:float-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet deserunt deleniti alias sit repellat maxime mollitia dolores fuga omnis ut repudiandae temporibus, animi necessitatibus labore itaque fugit distinctio blanditiis?</p>
 </body>
 </html>
