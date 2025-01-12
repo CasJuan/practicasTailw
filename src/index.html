@@ -6,7 +6,7 @@
     <title>Tailwind</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body class="p-4">
+<body class="dark:bg-slate-900">
     <!-- <h2 class="bg-lime-600 text-azul-oscuro">Tailwind</h2>
     <h2 class="bg-lime-700">en</h2>
     <h2 class="bg-lime-800">CodingTube</h2> -->
@@ -98,14 +98,25 @@
             <div class="card ">9</div>
         </div> -->
 
-        <div class="grid grid-cols-2 gap-4 h-[100vh]">
+        <!-- <div class="grid grid-cols-2 gap-4 h-[100vh]">
             <div class="card col-span-2 ">header</div>
             <div class="card col-span-2 ">nav</div>
             <div class="card ">section</div>
             <div class="card ">article</div>
             <div class="card  row-[3/5] col-start-2">aside</div>
             <div class="card col-span-2">footer</div>
-        </div>
+        </div> -->
+
+        <label for="darkmoce" class="dark:text-white">Darck Mode</label>
+        <input type="checkbox" id="darkmode">
+
+
+        <article class="w-[400px] mt-10 border rounded-lg p-3 mx-auto dark:bg-slate-800">
+            <h2 class="font-bold text-lg dark:text-white:">Titulo </h2>
+            <p class="dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repellendus, eligendi eius earum excepturi ex, doloribus veritatis blanditiis quidem quibusdam tempora nostrum delectus mollitia quo omnis. Hic earum cum labore?</p>
+        </article>
+        
+        <script src="main.js"></script>
 
 
 
